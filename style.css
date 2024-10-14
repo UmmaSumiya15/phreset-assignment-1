@@ -11,9 +11,6 @@ body{
 
 }
 
-nav{
-    margin-top: 25px;
-}
 section{
     margin-top: 50px;
 
@@ -127,6 +124,10 @@ section{
     font-size: 14px;
     font-weight: 600; 
     padding: 12px 18px;
+}
+.block-content button a{
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -370,5 +371,39 @@ border-radius: 16px;
     border: none;
 
 }
+
+/* footer */
+
+.footer{
+    background-color: rgba(13, 19, 33, 0.03);
+    text-align: left;
+    padding: 32px 150px;
+
+}
+.footer .footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+
+
+}
+.footer .footer-content .socials a{
+    text-decoration: none;
+
+
+}
+.footer .footer-content .socials {
+    display: flex;
+    gap: 20px;
+
+
+}
+
+
+
+
+
 
 

@@ -157,3 +157,36 @@ section{
     padding: 45px 30px ;
 
 }
+
+/* inspiration section */
+
+.inspiration-section{
+    text-align: center;
+    margin: 75px 150px;
+}
+
+.inspiration-title{
+    margin-bottom: 50px;
+    width: 70%;
+}
+.inspiration-title h1{
+    color: #0D1321;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.inspiration-title p{
+    color: #0D1321;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px; 
+}
+
+.inspiration-video{
+    border: 1px solid rgba(13, 19, 33, 0.20);
+    border-radius: 16px;
+    padding: 35px;
+}
+.inspiration-video iframe{
+    border-radius: 16px;
+}
